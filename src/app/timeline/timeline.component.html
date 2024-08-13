@@ -1,0 +1,22 @@
+<div id="timeline">
+  <div class="timeline-block" *ngFor="let job of jobs">
+    <div class="timeline-img" appScrollAnimation="0.75">
+      <div class="pulse"></div>
+      <div class="pulse pulse-delay"></div>
+      <div class="overlay"></div>
+      <img src="{{'assets/images/' + job.imageUrl }}" alt="{{ job.title | translate }}">
+    </div>
+
+    <div class="timeline-content" appScrollAnimation="0.75">
+      <h2>{{ job.title | translate }}</h2>
+      <p>{{ job.description | translate }}</p>
+      <ul>
+        <li *ngFor="let step of job.steps">{{ step | translate }}</li>
+      </ul>
+      <div class="date">
+        <h2> {{ job.date | translate }}</h2>
+        <p><b>{{ job.company | translate }}</b>, <span class="position">{{ job.position | translate }}</span></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,213 @@
+:root {
+  --color-blue: #2BA8D6;
+  --color-title: #595959;
+
+  --color-default: #C5C6C6;
+  --color-gray: #808287;
+  --color-gold: #B2A171;
+
+
+  --font-size-big: 22px;
+  --font-size-title: 18px;
+  --font-size-normal: 15px;
+  --font-size-smaller: 14px;
+  --font-size-phone: 13px;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--color-default);
+}
+
+*, *:after, *:before {
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+b {
+  color: var(--color-gray);
+  font-weight: normal;
+}
+
+
+body::-webkit-scrollbar {
+  background: #34363D;
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6D7180;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #7A7E8F;
+}
+
+body::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+.social_link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 38px;
+  height: 38px;
+  background: transparent;
+  border-radius: 50%;
+  color: var(--color-default);
+  transition: color 0.3s, background 0.4s;
+}
+
+.social_link:hover {
+  color: #DBDBDB;
+  background: #494B57;
+}
+
+
+@keyframes slideIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideFromRight {
+  0% { transform: translateX(30%); opacity: 0; }
+  70% { transform: translateX(-15%)}
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideFromRightSlightly {
+  from { transform: translateX(50%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideFromLeftSlightly {
+  from { transform: translateX(-50%); opacity: 0; }
+  to { transform: translateX(0%); opacity: 1; }
+}
+
+@keyframes slideFromBottom {
+  0% { transform: translateY(100px); opacity: 0; }
+  70% { transform: translateY(-30px)}
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInOpacityOnly {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateX(-40px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideBlob {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+  65% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce-2-inverse {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

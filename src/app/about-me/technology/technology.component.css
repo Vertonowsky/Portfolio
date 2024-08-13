@@ -1,0 +1,53 @@
+img {
+  width: 45%;
+  max-height: 50px;
+}
+
+p {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+  p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  img {
+    max-width: 25px;
+  }
+
+  p {
+    font-size: var(--font-size-phone);
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  img {
+    max-width: 35px;
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  img {
+    max-width: 45px;
+  }
+
+}

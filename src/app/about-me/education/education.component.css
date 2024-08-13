@@ -1,0 +1,41 @@
+img {
+  max-width: 60px;
+}
+
+.custom-background {
+  background: #CCCCCC;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.info {
+  margin-left: 10px;
+  text-align: left;
+}
+
+  .info h3 {
+    margin: 0;
+    font-size: 17px;
+    color: var(--color-gold);
+  }
+
+  .info p {
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #9DA0B3;
+  }
+
+
+
+@media (max-width: 650px) {
+
+  img {
+    max-width: 50px;
+  }
+
+  .info h3 {
+    font-size: var(--font-size-normal);
+  }
+
+}
