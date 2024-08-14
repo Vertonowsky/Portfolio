@@ -22,7 +22,7 @@ import {ProjectImageComponent} from "./project-image/project-image.component";
 })
 export class ProjectsComponent implements OnInit, OnDestroy {
 
-  private readonly MIN_SWIPE_DISTANCE = 15;
+  private readonly MIN_SWIPE_DISTANCE = 50;
   private xStart: number | null = null;
 
   @Input() activeIndex : number = 0;
