@@ -211,3 +211,14 @@ body::-webkit-scrollbar-corner {
     transform: translateX(0);
   }
 }
+
+@keyframes pulsing {
+  0% {
+    transform: scale(1);
+    opacity: .7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}

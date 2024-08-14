@@ -64,6 +64,7 @@
   width: 70%;
   height: 70%;
   position: relative;
+  pointer-events: none;
   z-index: 2;
 }
 
@@ -76,17 +77,6 @@
   top: 0;
   left: 0;
   z-index: 1;
-}
-
-@keyframes pulsing {
-  0% {
-    transform: scale(1);
-    opacity: .7;
-  }
-  100% {
-    transform: scale(1.6);
-    opacity: 0;
-  }
 }
 
 .timeline-img.is-hidden {

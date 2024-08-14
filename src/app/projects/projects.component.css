@@ -163,8 +163,10 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  right: -20px;
+  right: -60px;
   margin: auto;
+  width: 50px;
+  height: 36px;
   cursor: pointer;
 }
 

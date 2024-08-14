@@ -157,7 +157,10 @@
 #frame .button_contact {
   position: relative;
   width: 80%;
-  padding: 10px 30px;
+  max-width: 220px;
+  margin: auto;
+  cursor: default;
+  padding: 10px 15px;
   background: #A18A4D;
 }
 
@@ -165,8 +168,8 @@
   margin-right: 5px;
 }
 
-#frame .button_contact:hover  {
-  background: #877441;
+#frame .button_contact:hover {
+  background: #A18A4D;
 }
 
 

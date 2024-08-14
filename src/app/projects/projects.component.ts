@@ -34,8 +34,7 @@ export class ProjectsComponent implements OnInit, OnDestroy {
       "PROJECT_1_TITLE",
       "PROJECT_1_DESCRIPTION",
       ["Java", "Spring", "Hibernate", "JPA", "Thymeleaf", "Git", "MySQL", "OAuth 2.0", "HTML", "CSS", "JavaScript"],
-      [new ExternalButton("PROJECTS_SOURCE_CODE", "https://github.com/Vertonowsky/Online-Courses")],
-      new ExternalButton("PROJECTS_LIVE_DEMO", "CHANGE_ME")
+      [new ExternalButton("PROJECTS_SOURCE_CODE", "https://github.com/Vertonowsky/Online-Courses")]
     ),
     new Project(
       "PROJECT_2_TITLE",

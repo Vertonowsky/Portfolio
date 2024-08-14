@@ -1,6 +1,7 @@
 img {
   width: 45%;
   max-height: 50px;
+  pointer-events: none;
 }
 
 p {
