@@ -61,7 +61,12 @@
   z-index: 3;
 }
 
-#box_1.slideBlob {
+#box_1.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#box_1.slideAnimation {
   animation: 1s slideIn ease-in-out;
 }
 
@@ -127,7 +132,7 @@
   z-index: 5;
 }
 
-#frame.slideBlob {
+#frame.slideAnimation {
   animation: 1s slideFromRight ease-in-out;
 }
 

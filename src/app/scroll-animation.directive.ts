@@ -17,7 +17,7 @@ export class ScrollAnimationDirective implements AfterViewInit {
   onWindowScroll() {
     if (this.isElementInView() && this.el.nativeElement.classList.contains('is-hidden')) {
       this.renderer.removeClass(this.el.nativeElement, 'is-hidden');
-      this.renderer.addClass(this.el.nativeElement, 'slideBlob');
+      this.renderer.addClass(this.el.nativeElement, 'slideAnimation');
     }
   }
 

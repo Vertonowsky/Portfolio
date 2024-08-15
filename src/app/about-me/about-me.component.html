@@ -3,8 +3,8 @@
     <div class="title_holder" id="title_holder" appScrollAnimation="0.9">
       <p>{{ 'ABOUT_ME_TITLE' | translate }}</p>
     </div>
-    <div class="container" id="technologies" appScrollAnimation="0.9">
-      <div class="left">
+    <div class="container" id="technologies">
+      <div class="left" appScrollAnimation="0.85">
         <div class="desc">
           <div id="self_description">
             <p class="prefix">{{ 'ABOUT_ME_PROFILE_TITLE' | translate }}</p>
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="right">
+      <div class="right" appScrollAnimation="0.85">
         <h3>{{ 'ABOUT_ME_TECHNOLOGIES_TITLE' | translate }}</h3>
         <div class="technology_container">
           <app-technology class="technology" *ngFor="let technology of technologies"

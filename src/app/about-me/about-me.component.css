@@ -139,21 +139,22 @@
   background: rgba(89, 93, 102, 0.2);
 }
 
-#technologies.is-hidden .right,
-#technologies.is-hidden .left,
+#technologies .right.is-hidden,
+#technologies .left.is-hidden,
 #title_holder.is-hidden {
   visibility: hidden;
+  opacity: 0;
 }
 
-#title_holder.slideBlob {
+#title_holder.slideAnimation {
   animation: fadeIn 0.8s;
 }
 
-#technologies.slideBlob .right {
+#technologies .right.slideAnimation {
   animation: bounce-2-inverse 1.2s;
 }
 
-#technologies.slideBlob .left {
+#technologies .left.slideAnimation {
   animation: bounce-2 1.2s;
 }
 

@@ -81,9 +81,10 @@
 
 .timeline-img.is-hidden {
   visibility: hidden;
+  opacity: 0;
 }
 
-.timeline-img.slideBlob {
+.timeline-img.slideAnimation {
   visibility: visible;
   animation: bounce-1 .6s;
 }
@@ -177,10 +178,10 @@
 
 .timeline-content.is-hidden {
   visibility: hidden;
+  opacity: 0;
 }
 
-.timeline-content.slideBlob {
-  visibility: visible;
+.timeline-content.slideAnimation {
   animation: bounce-2 .6s;
 }
 
@@ -202,7 +203,7 @@
   text-align: right;
 }
 
-.timeline-block:nth-child(even) .timeline-content.slideBlob {
+.timeline-block:nth-child(even) .timeline-content.slideAnimation {
   animation: bounce-2-inverse 0.6s;
 }
 

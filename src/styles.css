@@ -164,7 +164,7 @@ body::-webkit-scrollbar-corner {
   }
 }
 
-@keyframes slideBlob {
+@keyframes slideAnimation {
   0% {
     opacity: 0;
     transform: scale(1.2);
