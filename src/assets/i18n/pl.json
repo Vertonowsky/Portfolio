@@ -1,8 +1,8 @@
 {
   "ABOUT_ME_TITLE": "O mnie",
-  "ABOUT_ME_PROFILE_TITLE": "Cześć, jestem 22 letnim programistą Java",
-  "ABOUT_ME_PROFILE_DESCRIPTION_1": "Jestem ambitną osobą, która interesuje się nowoczesnymi technologiami i urządzeniami elektronicznymi. Od momentu rozpoczęcia swojej pierwszej pracy, moja kariera rozwijała się w błyskawicznym tempie. Szybko zdobywałem nowe umiejętności i dostosowywałem się do zmieniających się warunków.",
-  "ABOUT_ME_PROFILE_DESCRIPTION_2": "Moim celem jest ciągły rozwój umiejętności programistycznych oraz tworzenie kompleksowych i nowoczesnych aplikacji.",
+  "ABOUT_ME_PROFILE_TITLE": "Cześć, jestem 23 letnim programistą Java",
+  "ABOUT_ME_PROFILE_DESCRIPTION_1": "Od momentu rozpoczęcia pierwszej pracy w wieku 16 lat, moja kariera zaczęła rozwijać się w błyskawicznym tempie. Szybko zdobywałem nowe umiejętności i dostosowywałem się do zmieniających się warunków.",
+  "ABOUT_ME_PROFILE_DESCRIPTION_2": "Moim największym celem jest ciągły rozwój umiejętności programistycznych oraz tworzenie kompleksowych oraz nowoczesnych aplikacji internetowych.",
   "ABOUT_ME_EDUCATION_TITLE": "Edukacja",
   "ABOUT_ME_EDUCATION_SGGW_TITLE": "Student 4 roku na kierunku Informatyka",
   "ABOUT_ME_EDUCATION_SGGW_DESCRIPTION": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
@@ -21,7 +21,7 @@
   "BANNER_PROFESSION": "programista backend",
 
   "CONTACT_TITLE": "Stwórzmy coś niesamowitego",
-  "CONTACT_DESCRIPTION": "Jestem otwarty i gotowy na stawienie czoła nowym wyzwaniom, za którymi idą wartościowe relacje zawodowe. Jeśli uważasz, że możemy razem osiągnąć wielkie rzeczy - proszę odezwij się.",
+  "CONTACT_DESCRIPTION": "Jestem otwarty i gotowy na stawienie czoła nowym wyzwaniom, za którymi idą wartościowe relacje zawodowe. Jeśli uważasz, że pasuję do Twojego zespołu, to daj znać!",
   "CONTACT_EMAIL_ME": "Wyślij e-mail!",
   "CONTACT_FRAME_TITLE": "Porozmawiajmy!",
   "CONTACT_FRAME_QUOTE": "\"Jeśli chcesz iść szybko, idź sam. Jeśli chcesz zajść daleko, idźcie razem.\"",
@@ -43,13 +43,13 @@
   "PROJECTS_LIVE_DEMO": "Wersja na żywo",
 
   "PROJECT_1_TITLE": "Online-Courses",
-  "PROJECT_1_DESCRIPTION": "Prosta aplikacja kursów online oferująca szeroki wachlarz kursów dla studentów. Jej głównym zadaniem jest umożliwienie łatwego zarządzania konfiguracją oraz zawartością witryny.",
+  "PROJECT_1_DESCRIPTION": "Platforma oferująca kursy online o różnorodnej tematyce. Projekt skierowany głównie do studentów chcących poszerzyć swoją wiedzę. Zawiera własny odtwarzacz multimedialny oraz panel CMS.",
 
   "PROJECT_2_TITLE": "Leds-Controller",
-  "PROJECT_2_DESCRIPTION": "Aplikacja do zarządzania paskami LED zaprojektowana dla każdego miłośnika świateł LED. Zamontuj pasek LED na boku biurka i zmieniaj animacje za pomocą strony internetowej działającej na zewnętrznym module WiFi Arduino.",
+  "PROJECT_2_DESCRIPTION": "Aplikacja do zarządzania listwami LED zaprojektowana dla każdego miłośnika świateł LED. Zamontuj pasek LED na boku biurka i zmieniaj animacje za pomocą strony internetowej działającej na zewnętrznym module WiFi Arduino.",
 
   "PROJECT_3_TITLE": "Admin Management Panel",
-  "PROJECT_3_DESCRIPTION": "Aplikacja do zarządzania treścią umożliwiająca właścicielom firm efektywne zarządzanie czasem pracy swoich pracowników. W zasadzie jest to zaawansowany kalendarz z wieloma funkcjami, takimi jak kalkulacja potrzebnych zasobów na nadchodzący miesiąc i wiele innych!",
+  "PROJECT_3_DESCRIPTION": "Aplikacja do zarządzania treścią umożliwiająca właścicielom firm efektywne zarządzanie czasem pracy swoich pracowników. Skorzystaj z zaawansowanego kalendarza z bogatymi funkcjami, takimi jak np. kalkulacja potrzebnych zasobów na nadchodzący miesiąc!",
 
   "TIMELINE_JOB_1_TITLE": "Java backend developer [Spring, JavaEE]",
   "TIMELINE_JOB_1_DESCRIPTION": "Jestem odpowiedzialny za rozwój serwisu player.pl przy użyciu frameworka Spring. Do moich obowiązków należą:",
